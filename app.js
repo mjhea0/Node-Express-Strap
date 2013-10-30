@@ -1,6 +1,6 @@
 // dependencies
 var express = require('express');
-var routes = require('./routes');
+// var routes = require('./routes');
 var mongoose = require('mongoose');
 var mongo = require('mongodb');
 var passport = require('./authentication');
