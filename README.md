@@ -8,7 +8,7 @@ This is a basic node boilerplate complete with user authentication, meant for ra
 
 1. Clone
 2. `npm install`
-3. `node app.js` or `supervisor app`
+3. `node server.js` or `supervisor server` or `cake server`
 
 ### Main Tools
 
