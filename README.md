@@ -4,6 +4,8 @@
 
 This is a basic node boilerplate complete with user authentication, meant for rapid web development. Get your app quickly!
 
+Prefer coffeescript? [https://github.com/gemfarmer/Node-Express-CoffeeStrap](https://github.com/gemfarmer/Node-Express-CoffeeStrap)
+
 ### Quick Setup
 
 1. Clone
