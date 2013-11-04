@@ -1,0 +1,24 @@
+extends index
+
+block afterNav
+
+  .page-header
+    h1 Welcome to #{config.name}!
+  p.lead
+    if user
+      .row
+        h4 You should think about putting something here.
+        h5 Current User: #{user.username}
+      .button
+        a.btn.btn-primary.btn-large(href='/logout') Logout
+    else
+      .row
+        h4 This is a basic Node boilerplate complete with user authentication. Fork on &nbsp;
+          a(href='https://github.com/mjhea0/node-express-strap') Github.
+        br
+        a.btn.btn-primary.btn-large(href='/register') Register
+
+
+
+
+            

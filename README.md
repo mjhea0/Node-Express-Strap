@@ -34,7 +34,7 @@ For more info and version info, look at the `package.json` file.
 
 ### Todo
 
-1. Update to Bootstrap 3
-2. Update documentation
-3. Add Mocha unit tests
-4. Add social auth
+1. Update documentation
+2. Add Mocha unit tests
+3. Add social auth
+4. Passport.js error messages

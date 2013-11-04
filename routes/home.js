@@ -7,7 +7,7 @@ module.exports = {
 
   // app.get('/'...)
   index: function(req, res) {
-    res.render('index.jade', {
+    res.render('home.jade', {
       title: app.locals.config.name,
       user: req.user
     });
