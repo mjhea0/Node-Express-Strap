@@ -10,7 +10,7 @@ Prefer coffeescript? [https://github.com/gemfarmer/Node-Express-CoffeeStrap](htt
 
 1. Clone
 2. `npm install`
-3. `node server.js` or `supervisor server` or `cake server`
+3. `node server.js` or `supervisor server` or `cake dev`
 
 ### Main Tools
 
