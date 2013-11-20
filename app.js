@@ -67,8 +67,8 @@ app.configure('production', function(){
 // load the router
 require('./routes')(app);
 
-var port = config.port;
-app.listen(port, function() {
-console.log("Listening on " + port);
 
+var port = process.env.PORT || config.port;
+app.listen(port, function() {
+  console.log("Listening on " + port);
 });
